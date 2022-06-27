@@ -1,0 +1,28 @@
+***Los lenguajes de programación son sincronos
+***JS es síncrono (se ejecutan de forma secuencial) y no bloqueante (bloqueante: una tarea no devuelve el control hasta que se ha completado, no bloqueante:
+una tarea se devulve inmediatamente con independencia del resultado, devuelve datos o un error.),con un bucle de eventos(concurrencia),
+implementando con un único hilo (single-threaded) para sus interfencias I/O.
+
+¿Qué es el asincronismo?
+Las tareas pueden realizarse mas tarde, lo que hace posible una respuesta sea procesada en diferido.
+
+--Concurrencia de JS--
+Utiliza un modelo de concurrencia basado en un "loop de eventos".
+
+--Event loop--
+Es un patron de diseño que espera y distribuye eventos o mensajes en un programa.
+**Memory heap: los objetos son asginados a un montículo (espacio grande en memoria no organizado).
+**Callstack: apila de forma organizada las instrucciones de nuestro programa.
+**Task queue: cola de tareas, se maneja la concurrencia, se agregan las taras que ya estan listas para pasar al stack.
+**Micro task queue: las promesas tienen otra forma de ejecutarse y una priorioridad superior.
+
+--Callback--
+Una funcion que se pasa como argumento de otra funcion y que sera invocada segun sea la necesidad.
+
+--Promesas (ES6)--
+Funcion no bloqueante y asincrona la cual puede retornar un valor ahora, en el futuro o nunca.
+
+--Async/await (ES2017)--
+Permite estructurar una funcion asincrona sin bloqueo de una manera similar a una funcion sincrona ordinaria.
+
+

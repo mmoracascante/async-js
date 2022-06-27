@@ -1,0 +1,24 @@
+{
+  "name": "async",
+  "version": "1.0.0",
+  "description": "Curso de asincronismo",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/callback/challenge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmoracascante/async-js.git"
+  },
+  "author": "Marco Mora <mmoracascante@gmail.com> (https://twitter.com/mmoracascante)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmoracascante/async-js/issues"
+  },
+  "homepage": "https://github.com/mmoracascante/async-js#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.6",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "type": "module"
+}
